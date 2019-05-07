@@ -1,7 +1,8 @@
 Below Zero
 ================
+Game Engine written in OpenGL.
 
-Student game project @blekinge technical institute of technology, made by
+A student game project @blekinge technical institute of technology, made by
 
 Petter Flood
 Elin Karlsson
