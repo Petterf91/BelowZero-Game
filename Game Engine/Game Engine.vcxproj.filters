@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{da1a9d6e-ef63-4da8-9d3d-8387aa2489c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gl3w">
+      <UniqueIdentifier>{f09f28d6-ec9f-4f2c-b049-80c740dacb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Core">
+      <UniqueIdentifier>{7b888a49-1dff-46dd-b435-a10742ce5f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{88f5c289-f557-46d6-942d-6124660ff6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject &amp; Components">
+      <UniqueIdentifier>{346d8fbe-aee2-4786-8784-19b06e9d0c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject &amp; Components">
+      <UniqueIdentifier>{9cd9bde0-d23e-4b1d-b288-ba843391e37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Core">
+      <UniqueIdentifier>{b5d981b9-e7a6-4bf6-9dd3-21abea9e726c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{719d0b4b-d0eb-4f29-8159-5e75b5cfdf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Types">
+      <UniqueIdentifier>{a253e10c-e9d0-4532-9b07-4474e9e31d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types">
+      <UniqueIdentifier>{3f1ea3d2-e4a7-4fe2-8e86-44bbd2e612fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLSL">
+      <UniqueIdentifier>{d8f50d1a-e7be-4514-8806-632b655c5511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intersection">
+      <UniqueIdentifier>{e29c1648-c099-4d72-9a90-21abf48eb638}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_glfw_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\examples\libs\gl3w\GL\gl3w.c">
+      <Filter>gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFilter.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialLib.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLib.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderBase.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLib.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgramLib.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightpassShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UIShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformable.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="VFXFireShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="VFXSnowShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="VFXFlareShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractionShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VFXLighterShaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Source Files\GameObject &amp; Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMaster.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="glew-1.11.0\include\GL\gl3w.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapImporter\LeapImporter\LeapImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapImporter\LeapImporter\LeapLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapImporter\LeapImporter\LeapMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui_impl_glfw_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\examples\libs\gl3w\GL\gl3w.h">
+      <Filter>gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\examples\libs\gl3w\GL\glcorearb.h">
+      <Filter>gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialLib.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLib.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLib.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBase.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFilter.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgramLib.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightpassShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Header Files\Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="UIShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Game Engine - 2.0\Game Engine\GeometryShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformable.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VFXFireShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VFXSnowShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractionShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VFXFlareShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VFXLighterShaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files\GameObject &amp; Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMaster.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew-1.11.0\include\GL\gl3w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew-1.11.0\include\GL\glcorearb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew-1.11.0\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew-1.11.0\include\GL\glxew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew-1.11.0\include\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapImporter\LeapImporter\LeapImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapImporter\LeapImporter\LeapLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapImporter\LeapImporter\LeapMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapImporter\LeapImporter\MeshStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lightpassFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="lightpassVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="GeometryVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="GeometryGS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="GeometryFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="ShadowMapFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="ShadowMapVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="UIFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="UIVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="AnimationFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="AnimationVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="TerrainFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="TerrainVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="MainMenuVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="MainMenuFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXFireFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXFireVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXSnowFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXSnowVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="refractionShaderFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="refractionShaderVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXFlareFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXFlareVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXLighterFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="VFXLighterVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="axeTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BucketTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FoodTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryAxeTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryBucketTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryFoodTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryLighterIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryWoodIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LighterIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="uiTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WoodIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <None Include="AnimationFS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <None Include="AnimationVS.glsl">
+      <Filter>Header Files\GLSL</Filter>
+    </None>
+    <Image Include="BucketIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryBucketIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryAxeIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryFoodIconTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InventoryLogTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WoodTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

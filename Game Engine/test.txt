@@ -1,0 +1,19 @@
+
+vector<entity*> entity 
+
+update()
+
+------
+
+Entity---> player		move()
+
+Mesh mesh;
+
+
+class Entity
+{
+update()
+pollevent()
+collisison()
+
+}
