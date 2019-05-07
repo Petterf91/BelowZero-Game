@@ -10,8 +10,3 @@ Lucas Persson
 Leon Viio
 Emil Hallin
 Emil Gustafsson
-
-Third Party Libs
-----------------
-
-GLEW, GLFW, GLM, ENET, FREETYPE, LUAJIT, STB_IMAGE 
